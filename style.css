@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 5px;
+  
+}
+
+html,
+body {
+  background-color: rgb(186, 198, 209);
+  font-family: "Poppins", sans-serif;
+  background-image: url("images/header\ background\ shape-desktop.png");
+  
+}
+
+.logo {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  height: 20px;
+  width: 63px;
+  font-size: 18px;
+  color: #6070ff;
+  font-weight: 700, bold;
+  padding-right:3px ;
+  
+}
+
+.nav-bar {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+}
+
+.nav-bar a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+  color:#344563 ;
+}
+
+}
+
+.img-body {
+  background-image: url("images/header\ background\ shape-desktop.png");
+  position: absolute;
+  width: 1440px;
+  height: 916px;
+  left: 0px;
+  top: 1px;
+}
+section {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  padding: 100px;
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+p {
+  margin: 12px 0;
+}
+
+.fa-twitter,
+.fa-linkedin,
+.fa-medium,
+.fa-angellist {
+  color: black;
+  padding: 5px;
+}
+
+.ellipse3 {
+
+position: absolute;
+width: 224px;
+height: 224px;
+left: 1223px;
+top: 192px;
+max-width: 20vh;
+
+}
+
+.Ellipse11 {
+
+  position: absolute;
+width: 80.48px;
+height: 40.24px;
+left: 139.2px;
+top: 260.68px;
+
+
+
+background: #6070FF;
+transform: rotate(-156.88deg);
+}
+
+.Ellipse4 {
+  
+  position: absolute;
+  width: 47px;
+  height: 47px;
+  left: 839px;
+  top: 758px;
+  
+  /* Theme 1 / Primary Colors 2 */
+  
+  background: #6070FF;
+}
+
+.rectangle5 {
+   position: absolute;
+width: 161.41px;
+height: 28.87px;
+left: 731.44px;
+top: 750px;
+
+/* Theme 1 / Primary Colors 4 */
+
+background: #EBEBFF;
+transform: rotate(23.34deg);
+
+}
+
+.rectangle6 {
+  position: absolute;
+width: 108.67px;
+height: 19.44px;
+left: 34.6px;
+top: 218.92px;
+
+/* Theme 1 / Primary Colors 4 */
+
+background: #EBEBFF;
+transform: rotate(-46.14deg);
+
+
+}
+
+.rectangle7{
+
+  position: absolute;
+width: 56.01px;
+height: 10.02px;
+left: 693.25px;
+top: 261.57px;
+
+/* Theme 1 / Primary Colors 2 */
+
+background: #6070FF;
+transform: matrix(0.98, -0.21, -0.21, -0.98, 0, 0);
+
+}
+
+.Ellipse5 {
+  position: absolute;
+width: 23px;
+height: 23px;
+left: 708px;
+top: 257px;
+
+/* Theme 1 / Primary Colors 4 */
+
+background: #EBEBFF;
+}
+
+.Ellipse6 {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 1174px;
+  top: 644px;
+  
+  /* Neutrals/N0 */
+  
+  background: #FFFFFF;
+  /* Theme 1 / Primary Colors 4 */
+  
+  border: 1px solid #EBEBFF;
+  box-sizing: border-box;
+
+}
+
+.Ellipse7 {
+  position: absolute;
+width: 39px;
+height: 39px;
+left: 965px;
+top: 192px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+/* Theme 1 / Primary Colors 4 */
+
+border: 1px solid #EBEBFF;
+box-sizing: border-box;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+}
+
+.Ellipse8 {
+  position: absolute;
+width: 15px;
+height: 15px;
+left: 379px;
+top: 165px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+/* Theme 1 / Primary Colors 4 */
+
+border: 1px solid #EBEBFF;
+box-sizing: border-box;
+
+
+}
+
+.Ellipse14 {
+  position: absolute;
+width: 23px;
+height: 23px;
+left: 73px;
+top: 535px;
+
+/* Neutrals/N0 */
+
+background: #FFFFFF;
+/* Theme 1 / Primary Colors 4 */
+
+border: 1px solid #EBEBFF;
+box-sizing: border-box;
+transform: matrix(1, 0, 0, -1, 0, 0);
+
+
+}
+
