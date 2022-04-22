@@ -34,6 +34,7 @@ body {
   color: #fff;
   text-decoration: none;
 }
+
 .nav-bar a:hover {
   border-bottom: 2px solid #84b1ff;
 }
@@ -103,6 +104,7 @@ p {
     flex-direction: column;
     position: relative;
   }
+
   .nav-bar .container {
     width: 100%;
   }
