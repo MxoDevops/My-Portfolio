@@ -12,6 +12,12 @@ body {
   font-family: "Inter", sans-serif;
 }
 
+body {
+  background-image: url("images/Illustration-header.png");
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+}
+
 .nav-bar {
   display: flex;
   background-color: #3e3c3c;
@@ -130,17 +136,21 @@ p {
     border-top: 2px solid #fff;
   }
 
-  .home-img {
-    position: absolute;
-    bottom: 0;
-    left: 300px;
-    height: 110%;
+  body {
+    background-image: url("images/Illustration-header.png");
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+    background-size: 10vh;
   }
 
   .icons ul {
     display: flex;
     justify-content: space-between;
-    top: 625px;
+    top: 580px;
     left: 100px;
+  }
+
+  .content {
+    font-size: 10vh;
   }
 }
