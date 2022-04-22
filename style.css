@@ -1,12 +1,4 @@
 @import url("https://rsms.me/inter/inter.css");
-html {
-  font-family: "Inter", sans-serif;
-}
-@supports (font-variation-settings: normal) {
-  html {
-    font-family: "Inter var", sans-serif;
-  }
-}
 
 * {
   box-sizing: border-box;
@@ -22,7 +14,7 @@ body {
 .nav-bar {
   display: flex;
   background-color: #3e3c3c;
-  color: #ffffff;
+  color: #fff;
   justify-content: space-around;
   align-items: center;
   font-size: 18px;
@@ -36,7 +28,7 @@ body {
   padding: 20px 10px;
 }
 .nav-bar a {
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
 }
 .nav-bar a:hover {
@@ -99,8 +91,6 @@ p {
   padding: 5px;
 }
 
-.bg {
-}
 .toggle {
   display: none;
 }
@@ -129,7 +119,7 @@ p {
   }
   .menu .item {
     display: block;
-    border-top: 2px solid #ffffff;
+    border-top: 2px solid #fff;
   }
   .home-img {
     position: absolute;
