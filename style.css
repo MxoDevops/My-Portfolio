@@ -11,6 +11,7 @@ body {
   background-color: #1c1a19;
   font-family: "Inter", sans-serif;
 }
+
 .nav-bar {
   display: flex;
   background-color: #3e3c3c;
@@ -23,10 +24,12 @@ body {
 .menu {
   list-style-type: none;
 }
+
 .menu .item {
   display: inline-block;
   padding: 20px 10px;
 }
+
 .nav-bar a {
   color: #fff;
   text-decoration: none;
@@ -103,12 +106,14 @@ p {
   .nav-bar .container {
     width: 100%;
   }
+
   .toggle {
     display: block;
     position: absolute;
     right: 14px;
     top: 0;
   }
+
   .menu {
     list-style-type: none;
     width: 100%;
@@ -117,16 +122,19 @@ p {
     color: #f55800;
     display: none;
   }
+
   .menu .item {
     display: block;
     border-top: 2px solid #fff;
   }
+
   .home-img {
     position: absolute;
     bottom: 0;
     left: 300px;
     height: 110%;
   }
+
   .icons ul {
     display: flex;
     justify-content: space-between;
