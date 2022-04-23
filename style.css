@@ -57,7 +57,7 @@ section {
 }
 
 .content {
-  position: relative;
+  display: inline;
   z-index: 10;
   max-width: 600px;
   color: white;
@@ -109,12 +109,7 @@ p {
   transform: scale(1.2);
 }
 
-.fa-twitter,
-.fa-linkedin,
-.fa-medium,
-.fa-angellist,
-.fa-bars,
-.fa-github {
+.icons li .fa {
   color: white;
   padding: 5px;
 }
@@ -177,11 +172,10 @@ p {
   }
 
   .icons ul {
-    position: absolute;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
-    top: 580px;
-    left: 60px;
+    padding: 140px 0px;
+    margin: 70px 40px;
   }
 
   section {
