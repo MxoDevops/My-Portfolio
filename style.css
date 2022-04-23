@@ -1,4 +1,6 @@
 @import url("https://rsms.me/inter/inter.css");
+@import url("https://fonts.googleapis.com/css2?family=Crete+Round&family=Montserrat:wght@500&family=Yanone+Kaffeesatz&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 * {
   box-sizing: border-box;
@@ -10,9 +12,10 @@ html,
 body {
   background-color: #1c1a19;
   font-family: "Inter", sans-serif;
+  overflow: hidden;
 }
 
-body {
+.section {
   background-image: url("images/Illustration-header.png");
   background-repeat: no-repeat;
   background-position: 100% 50%;
@@ -25,6 +28,7 @@ body {
   justify-content: space-around;
   align-items: center;
   font-size: 18px;
+  width: 100%;
 }
 
 .menu {
@@ -57,6 +61,8 @@ section {
   z-index: 10;
   max-width: 600px;
   color: white;
+  font-size: 8vh;
+  padding-left: 20px;
 }
 
 .home-img {
@@ -67,10 +73,18 @@ section {
 }
 
 h1 {
-  font-size: 42px;
+  font-size: 72px;
   font-weight: 400;
   color: #f55800;
   font-family: "Crete round", sans-serif;
+  line-height: 81.5px;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 32px;
+  line-height: 44px;
 }
 
 .soft {
@@ -80,6 +94,9 @@ h1 {
 p {
   margin: 12px 0;
   font-size: 20px;
+  font-family: "Inter", sans-serif;
+  line-height: 32px;
+  font-weight: 400;
 }
 
 .icons ul {
@@ -96,7 +113,8 @@ p {
 .fa-linkedin,
 .fa-medium,
 .fa-angellist,
-.fa-bars {
+.fa-bars,
+.fa-github {
   color: white;
   padding: 5px;
 }
@@ -109,17 +127,30 @@ p {
   .nav-bar {
     flex-direction: column;
     position: relative;
+    height: 48px;
+    width: 100%;
   }
 
   .nav-bar .container {
-    width: 100%;
+    width: 90%;
+    height: 40%;
+  }
+
+  .container {
+    height: 77px;
+    width: 77px;
+    top: 10px;
+    left: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700, bolder;
   }
 
   .toggle {
     display: block;
     position: absolute;
     right: 14px;
-    top: 0;
+    top: 12px;
+    margin-right: 24px;
   }
 
   .menu {
@@ -129,28 +160,51 @@ p {
     padding-top: 10px;
     color: #f55800;
     display: none;
+    margin-left: 24px;
   }
 
   .menu .item {
     display: block;
     border-top: 2px solid #fff;
+    margin: 24px;
   }
 
-  body {
+  .section {
     background-image: url("images/Illustration-header.png");
     background-repeat: no-repeat;
-    background-position: 100% 50%;
-    background-size: 10vh;
+    background-position: bottom 90px right;
+    background-size: 14vh;
   }
 
   .icons ul {
+    position: absolute;
     display: flex;
     justify-content: space-between;
     top: 580px;
-    left: 100px;
+    left: 60px;
   }
 
-  .content {
-    font-size: 10vh;
+  section {
+    padding: 100px 24px;
+  }
+
+  h1 {
+    font-family: "Crete Round", sans-serif;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 64px;
+  }
+
+  h2 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700, bold;
+    line-height: 32px;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
