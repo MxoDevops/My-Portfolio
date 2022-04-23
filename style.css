@@ -130,8 +130,9 @@ p {
     top: 10px;
     left: 12px;
     font-family: "Roboto", sans-serif;
-    font-weight: 700, bolder;}
-    
+    font-weight: 700, bolder;
+  }
+
   .nav-bar {
     flex-direction: column;
     position: relative;
@@ -142,9 +143,6 @@ p {
   .nav-bar .container {
     width: 90%;
     height: 40%;
-  }
-
-
   }
 
   .toggle {
